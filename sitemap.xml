@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://codyandersan.github.io/</loc>
+  <lastmod>2023-03-18T13:51:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://codyandersan.github.io/TuneStation/</loc>
+  <lastmod>2023-03-18T13:43:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codyandersan.github.io/AlphaDict/</loc>
+  <lastmod>2022-12-19T11:15:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codyandersan.github.io/contests_hub/</loc>
+  <lastmod>2022-10-27T09:15:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codyandersan.github.io/Copier/</loc>
+  <lastmod>2022-12-03T10:39:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codyandersan.github.io/QR_Code_Generator/</loc>
+  <lastmod>2022-10-28T08:58:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codyandersan.github.io/Password_Generator/</loc>
+  <lastmod>2022-10-27T09:18:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
