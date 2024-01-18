@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png?v=2">
@@ -18,13 +21,13 @@
     <meta name="theme-color" content="#ffffff">
 
     <meta name="description"
-        content="Cody Andersan is a 14 year old programmer and a Python and Web developer. @codyandersan is also the developer of websites such as TuneStation.">
+        content="Cody Andersan is a 15 year old Python and Web Developer. @codyandersan is also the developer of websites such as TuneStation.">
 
     <title>Cody Andersan's Portfolio Website</title>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    
 </head>
 
-<body style="font-family: 'Quicksand';">
+<body style="font-family: 'Poppins', sans-serif;">
     <header class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a href="#" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
@@ -32,11 +35,11 @@
             </a>
             <nav
                 class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-white" href="https://code.dcoder.tech/profile/codyandersan">Dcoder</a>
-                <a class="mr-5 hover:text-white" href="https://replit.com/@codyandersan">Replit</a>
                 <a class="mr-5 hover:text-white" href="https://github.com/codyandersan">GitHub</a>
+                <a class="mr-5 hover:text-white" href="https://discord.com/users/codyandersan">Discord</a>
+                <a class="mr-5 hover:text-white" href="https://replit.com/@codyandersan">Replit</a>
             </nav>
-            <a href="https://github.com/codyandersan"
+            <a href="https://github.com/codyandersan" target="_blank"
                 class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Visit
                 Profile
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -50,11 +53,10 @@
         <div class="container px-5 py-14 mx-auto">
             <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
                 <img class="flex-shrink-0 rounded-full w-48 h-48 object-cover object-center sm:mb-10 mb-4"
-                    src="profile_photo.png" alt="Cody Andersan's Profile Picture">
+                    src="assets/profile_photo.png" alt="Cody Andersan's Profile Picture">
 
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">This is @codyandersan</h1>
-                <p class="lg:w-1/2 w-full leading-relaxed text-opacity-80">I am a 14 year old programmer who knows
-                    Python, HTML, CSS and JavaScript and Java (Basics) </p>
+                <p class="lg:w-1/2 w-full leading-relaxed text-opacity-80">I am a 15 year old Python, Java and Web Developer.</p>
             </div>
 
 
@@ -304,7 +306,7 @@
                                     </h2>
                                 </div>
                                 <div class="flex-grow">
-                                    <p class="leading-relaxed text-base">Here you can play quizzes from 24 categories,
+                                    <p class="leading-relaxed text-base">Here you can play quizzes from 24+ categories,
                                         ranging from celebrities to computer gadgets!</p>
                                     <a class="mt-3 text-indigo-400 inline-flex items-center"
                                         href="https://github.com/codyandersan/Quizzo-The-Ultimate-Quiz-Game-">View
@@ -382,14 +384,14 @@
 
 
                     <!--         See all projects btn -->
-                    <button onclick="location.href = 'https://github.com/codyandersan?tab=repositories';"
+                    <a href="https://github.com/codyandersan?tab=repositories" target="_blank" rel="noopener noreferrer"
                         class="flex mx-auto mt-16 text-black bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">See
-                        all projects</button>
+                        all projects</a>
             </section>
 
             <!--             Footer -->
             <footer class="text-gray-400 bg-gray-900 body-font">
-                <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                <div class="container px-5 pt-8 mx-auto flex items-center sm:flex-row flex-col">
                     <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
 
                         <span class="ml-3 text-xl">Cody Andersan</span>
